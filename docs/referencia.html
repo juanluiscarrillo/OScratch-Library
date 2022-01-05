@@ -162,9 +162,19 @@ width: 150px;
        #sites-chrome-header .sites-header-nav-dropdown-menuitem-content a.current {
             font-weight: bold;
           }
-        
+
+
+#banner{height:50px;background:#f5f5f5;border:1px solid #f0f0f0;box-shadow:0px 1px 3px rgba(0,0,0,0.25);border-radius:0px 2px 2px 0px;padding-right:10px}
+
+#banner .button{border:1px solid #aaaaaa;background:linear-gradient(#eeeeee, #bbbbbb);border-radius:2px;box-shadow:inset 0px 1px 0px rgba(255,255,255,0.4),0px 1px 1px rgba(0,0,0,0.1);background-color:#FFE788;margin-left:5px;padding:10px 12px;margin-top:6px;line-height:14px;font-size:14px;color:#333;font-weight:bold;text-align:center}
+#banner .button:hover{background:linear-gradient(#cccccc, #999999);background-color:#ffeca0}
+
+#banner .fork{left:50%;margin-left:10px;padding:10px 12px;line-height:50px;font-size:14px;background-color:#FFE788}        
       
-</style><!--[if IE]>
+</style>
+
+
+<!--[if IE]>
 <link rel="stylesheet" type="text/css" href="system/app/css/camelot/allthemes%2die.css.html" />
 <![endif]-->
         
@@ -189,11 +199,21 @@ width: 150px;
                         <tr class="sites-header-primary-row" id="sites-chrome-userheader">
                             <td id="sites-header-title" class="" role="banner">
                                 <div class="sites-header-cell-buffer-wrapper">
-                                    <h2><a href="home.html" dir="ltr" id="sites-chrome-userheader-title">OScratchLibreria</a></h2>
+                                    <h2>OScratchLibreria</h2>
                                 </div>
                             </td>
                             <td class="sites-layout-searchbox  "></td>
                         </tr>
+                        <tr>
+                            <td colspan="2">
+                                
+                                <div id="banner" >
+                                    <a href="https://github.com/juanluiscarrillo/OScratch-Library" class="button fork"><strong>View On GitHub</strong></a>
+                                </div><!-- end banner -->
+                            </td>
+                                
+                        </tr>
+                        <tr><td><br /></td><td></td></tr>
                         <tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
                             <td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
                                 <div class="sites-header-nav">
